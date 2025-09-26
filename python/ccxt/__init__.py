@@ -86,6 +86,7 @@ from ccxt.base.errors import error_hierarchy                          # noqa: F4
 
 from ccxt.alpaca import alpaca                                        # noqa: F401
 from ccxt.apex import apex                                            # noqa: F401
+from ccxt.aster import aster                                          # noqa: F401
 from ccxt.ascendex import ascendex                                    # noqa: F401
 from ccxt.backpack import backpack                                    # noqa: F401
 from ccxt.bequant import bequant                                      # noqa: F401
@@ -194,6 +195,7 @@ from ccxt.zonda import zonda                                          # noqa: F4
 exchanges = [
     'alpaca',
     'apex',
+    'aster',
     'ascendex',
     'backpack',
     'bequant',
